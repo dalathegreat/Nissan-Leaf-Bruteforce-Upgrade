@@ -7,6 +7,8 @@ Battery upgrading a Nissan Leaf by opening it up and replacing the original LMNO
 ## I accept the risks, how to proceed?
 The attached code should run on an Muxsan CAN MITM Bridge (3-port, rev. 2.5), available for purchase here. https://www.tindie.com/products/muxsan/can-mitm-bridge-3-port-rev-25/
 
+Take the .c file from this repository, and apply it to the Muxsan example repository. Compile and upload to bridge.
+
 Attach the bridge on the EV-CAN running from the battery to the car. On a 2011-2013 ZE0 Leaf, an ideal spot is under the cupholders in the center console. On the 2013-2017 AZE0, the easiest spot to splice it in is behind the footwell LH side trim. (Add pictures?)
 
 ## How do I modify the code for my usecase?
