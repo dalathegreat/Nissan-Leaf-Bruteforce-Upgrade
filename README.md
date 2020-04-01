@@ -1,5 +1,6 @@
 # Nissan-Leaf-Bruteforce-Upgrade
 Software for correcting instrumentation on a battery "bruteforce" upgraded LEAF. Example code integrated 30kWh cells using 24kWh original BMS.
+![30kWh swap](https://i.imgur.com/Nwm4tXx.png)
 
 ## A word of caution
 Battery upgrading a Nissan Leaf by opening it up and replacing the original LMNO2 cells with something else is always a bad idea. It requires great electrical skill, and takes a long time to perform. It also compromises the waterproof seal present, so you have to rely on your glue-caulking skills to get it waterproof again. If you use something else than Nissan cells you also risk having it catch on fire in the event of a crash, due to not using the OEM fasteners properly. The last and biggest problem is that it results in an overall unpleasant upgrade, due to the instrumentation issues. The code in this repository will alleviate some of the instrumentation issues, but it's not a ideal solution. This is the reason I made this way to upgrade obsolete, and only perform clean swaps. This is of no comfort to you if you already did this bruteforce upgrade, so here is the code that might make your life easier.
